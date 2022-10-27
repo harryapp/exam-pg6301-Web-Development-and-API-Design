@@ -1,0 +1,42 @@
+
+.section {
+
+}
+
+.top{
+    grid-area: header;
+    background: red;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    grid-area: mid;
+    background: dodgerblue;
+    height: 60vh;
+    width: 100vh;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.bottom {
+    grid-area: bottom;
+    background: darkseagreen;
+    width: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    gap: 5px;
+
+}
+
+.div-button-1{
+    cursor:pointer;
+}
+
+.div-button-1:hover{
+    background: darkgrey;
+
+}
